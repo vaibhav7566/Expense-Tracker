@@ -23,13 +23,6 @@ cd backend
 npm install
 ```
 
-Create `.env` file in backend directory:
-```env
-PORT=5000
-MONGODB_URI=mongodb+srv://shivendra:Shivendra123@patient-dashboard.9yngvv4.mongodb.net/Patient-Dashboard-mongodb
-JWT_SECRET=expense-tracker
-JWT_EXPIRES_IN=7d
-FRONTEND_URL=http://localhost:5173
 ```
 
 3. **Frontend Setup**
@@ -37,12 +30,6 @@ FRONTEND_URL=http://localhost:5173
 cd frontend
 npm install
 ```
-
-Create `.env` file in Frontend directory:
-```env
- VITE_BACKEND_URL=http://localhost:5000/api/
-```
-
 
 ### Running the Application
 
